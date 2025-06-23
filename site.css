@@ -11,11 +11,11 @@ p {
 }
 
 :root {
-  font-family: Arial, Helvetica, sans-serif;
-  --dark1: black;
-  --light1: white;
-  --dark2: darkblue;
-  --light2: lightblue;
+  font-family: monospace, Helvetica, sans-serif;
+  --dark1: rgb(250, 228, 33);
+  --light1: rgb(15, 0, 15);
+  --dark2: rgb(44, 37, 0);
+  --light2: rgb(196, 196, 196);
   background-color: var(--light1);
   color: var(--dark1);
 }
@@ -25,8 +25,7 @@ button {
   color: var(--dark2);
   font-weight: bold;
   padding: 10px;
-  border-radius: 5px;
-  border: 1px solid var(--dark2);
+  border-radius: 5%
 }
 
 input {
@@ -77,12 +76,13 @@ h1#name {
 #generalInfo {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: left;
+  margin-left: 10%;
   border: 20px;
 }
 
 #generalInfo p {
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
   color: var(--dark2);
   background-color: var(--light2);
