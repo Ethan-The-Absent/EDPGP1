@@ -18,6 +18,7 @@ p {
   --light2: rgb(196, 196, 196);
   background-color: var(--light1);
   color: var(--dark1);
+  background-image: url("stars.png");
 }
 
 button {
